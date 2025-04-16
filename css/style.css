@@ -34,7 +34,6 @@ img{
 .navbar{
     background: #111;
     padding: 12px 0;
-    margin-bottom: -10px;
 }
 
 .navbar .container{
@@ -72,7 +71,7 @@ img{
     margin-bottom: 50px;
 }
 
-.hero .container{
+.hero .containers{
     background: #fff;
     background-size: contain;
     background-position: center bottom;
@@ -88,6 +87,11 @@ img{
 .hero .hero-text{
     width: 70%;
     margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.hero .hero-buttons li a{
+    display: block;
 }
 
 /* Video */
@@ -137,7 +141,6 @@ img{
 
 /* Utility Classes */
 .container{
-    max-height: 10px;
     max-width: 1100px;
 }
 
@@ -188,7 +191,7 @@ img{
 
 /* Text Classes */
 .text-xxl{
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.2;
     font-weight: 600;
     margin: 40px 0 20px;
@@ -282,12 +285,8 @@ img{
 }
 
 .mobile-menu ul{
-    margin-top: 40px;
+    margin-top: 60px;
     padding-left: 10px;
-}
-
-.mobile-menu ul li{
-    margin: 10px 0;
 }
 
 .mobile-menu ul li a{
@@ -332,6 +331,14 @@ img{
 
     .footer .footer-grid > div{
         text-align: center;
+    }
+
+    .footer .footer-grid h4{
+        font-size: small;
+    }
+
+    .footer .footer-grid ul li{
+        font-size: small;
     }
 
     /* Text */

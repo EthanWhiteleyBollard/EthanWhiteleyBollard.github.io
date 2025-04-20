@@ -47,6 +47,7 @@ img{
 }
 
 .navbar ul li a{
+    margin-top: 5px;
     padding: 10px 20px;
     display: block;
     font-weight: 600;
@@ -54,8 +55,7 @@ img{
 }
 
 .navbar ul li a:hover{
-    color: var(--primary-color);
-    font-size: larger;
+    opacity: .8;
 }
 
 .navbar ul li a i{
@@ -88,10 +88,6 @@ img{
     width: 70%;
     margin-bottom: 20px;
     font-weight: 300;
-}
-
-.hero .hero-buttons li a{
-    display: block;
 }
 
 /* Project */
@@ -141,7 +137,7 @@ img{
 }
 
 .work-item{
-    transition: transform .2s;
+    transition: transform 1.0s;
 }
 
 .work-item:hover{
@@ -198,11 +194,12 @@ img{
 /* Buttons */
 .btn{
     display: inline-block;
-    padding: 13px 20px;
-    background: var(--light-color);
+    padding: 0px 20px;
+    background: none;
     color: #333;
     font-weight: 600;
-    text-decoration: none;
+    font-size: large;
+    color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -360,12 +357,6 @@ img{
         width: 100%;
         font-size: medium;
         text-align: center;
-    }
-
-    .hero .hero-buttons .btn{
-        margin-bottom: 10px;
-        display: block;
-        width: 100%;
     }
 
     .footer .footer-grid > div{

@@ -66,6 +66,82 @@ img{
     margin-left: 10px;
 }
 
+/* Project */
+.project{
+    background: #000000cb;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.project .containers{
+    background-size: auto;
+    background-position: center;
+    height: 1500px;
+}
+
+.project .content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.project .text-header{
+    color: #fff;
+    font-weight: 400;
+    padding: -150, 0,0,0;
+}
+
+.project .text-content{
+    color: #fff;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.project .video{
+    margin-top: 10px;
+}
+
+.project .text-descripton{
+    color: #fff;
+    font-weight: 100;
+    padding-left: 35px;
+    padding-right: 27px;
+}
+
+/* Footer */
+.footer{
+    padding: 40px 0;
+}
+
+.footer h4{
+    margin-bottom: 10px;
+}
+
+.footer ul li{
+    line-height: 2.5;
+}
+
+.footer a{
+    color: #ccc;
+    transition: 0.5s;
+}
+
+.footer a:hover{
+    color: #f4f4f6;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    justify-content: center;
+    align-items:first baseline;
+}
+
 /* Utility Classes */
 .container{
     max-width: 1100px;

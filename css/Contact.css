@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit';
+    background: linear-gradient(#dfdfdf, #a1a1a1);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* Navbar */
+.navbar{
+    background: #111;
+    padding: 12px 0;
+}
+
+.navbar .container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul{
+    display: flex;
+}
+
+.navbar ul li a{
+    margin-top: 5px;
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    opacity: .8;
+}
+
+.navbar ul li a i{
+    margin-right: 10px;
+}
+
+.navbar ul li:last-child a{
+    margin-left: 10px;
+}
+
+/* Input Fields */
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid #000000;
+}
+
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #000000;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #c9c9c9, #ffffff);
+    cursor: pointer;
+}
+
+.contact-left button:hover{
+    border: 2px solid #000000;
+}
+
+.contact-left button img{
+    height: 15px;
+}
+
+.contact-right img{
+    height: 650px;
+    
+}
+
+/* Screen Adjustment*/
+@media (max-width: 1200px){
+    .contact-inputs{
+        width: 80vw;
+    }
+
+    .contact-right{
+        display: none;
+    }
+}

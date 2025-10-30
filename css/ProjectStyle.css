@@ -79,7 +79,7 @@ img{
 .project .containers{
     background-size: auto;
     background-position: center;
-    height: 1500px;
+    height: 2000px;
 }
 
 .project .content{
@@ -101,6 +101,19 @@ img{
     padding-top: 10px;
 }
 
+.project h4{
+    color: #fff;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.project hr{
+    border: none;
+    width: 260px;
+    height: 2px;
+    background-color: #fff;
+}
+
 .project .video{
     margin-top: 10px;
     width: 100%;
@@ -114,6 +127,16 @@ img{
     font-weight: 100;
     padding-left: 35px;
     padding-right: 27px;
+}
+
+.project ul h4{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.project ul{
+    align-self: stretch;
+    margin-left: 35px;
 }
 
 /* Footer */
